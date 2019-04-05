@@ -1,7 +1,5 @@
-import tensorflow as tf
 import pandas as pd
 import numpy as np
-from scipy import stats
 
 #this funtion returns a pandas dataframe comsisting of area of the eye at different frames
 def eyeArea(path,r): #path is the path to clnf_features.txt and r is the frame rate
